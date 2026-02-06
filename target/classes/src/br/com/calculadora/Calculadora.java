@@ -1,22 +1,21 @@
 package br.com.calculadora;
 
-
 import java.util.Scanner;
-
+//Projeto de calculadora com as 4 operaçãoes basicas
 public class Calculadora {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-  System.out.println("------------------------------");
+        System.out.println("------------------------------");
         System.out.println("Digite o numero:");
-        int n1 = sc.nextInt();
+        double n1 = sc.nextDouble();
 
         System.out.println("Digite o operador (+    8    ou    -     ou    *     ou    /):");
         char operador = sc.next().charAt(0);
 
         System.out.println("Digite o segundo número:");
-        int n2 = sc.nextInt();
+        double n2 = sc.nextDouble();
 
-        int resultado = 0;
+        double resultado = 0.0;
      
 
         switch (operador) {

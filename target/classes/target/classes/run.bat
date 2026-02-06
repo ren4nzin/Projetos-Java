@@ -1,2 +1,2 @@
-java -jar target/geradordao-1.00.00.jar
+java -jar target/projetosjava-1.00.00.jar
 PAUSE
