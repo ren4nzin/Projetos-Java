@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>br.com.renan.projetosjava</groupId>
-    <artifactId>projetosjava</artifactId>
+    <groupId>br.com.breno.geradordao</groupId>
+    <artifactId>geradordao</artifactId>
     <version>1.00.00</version>
-    <name>projetosjava.jar</name>
+    <name>geradordao.jar</name>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -43,7 +43,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>br.com.calculadora.Calculadora</mainClass>
+                            <mainClass>br.com.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -1,55 +1,24 @@
-import java.util.Scanner;
+package br.com.educacao;
 
-class Alunos {
-	int matricula;
-	String nome;
-	double notalunos;
-}
+import java.util.Scanner;
 
 public class Usuarios {
 
 	public static void main(String args[]) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("===============================");
+		Alunos aluno1, aluno2, aluno3, aluno4;
+
+		aluno1 = new Alunos(1, "PEDRO", );
+		aluno2 = new Alunos(2, "DANIEl", 1);
+		aluno3 = new Alunos(3, "MARCOS", 2);
+		aluno4 = new Alunos(4, "JOÃO", 3);		
+
+		//aluno1.aumentarnota(5.1);
+		//aluno1.ajustarnota(5.0);
+        //aluno1.diminuinota(5.1);
+		//aluno1.alterarmatricula(6);
+		//aluno1.corrigirnome(nome "BRENO");
 		
-		System.out.println("Digite a matricula do aluno:");
-		int matricula = sc.nextInt();
+		aluno1.imprimir();
 		
-		
-		Alunos  alunos1 = new Alunos(); 
-		Alunos  alunos2 = new Alunos(); 
-		Alunos  alunos3 = new Alunos(); 
-		Alunos  alunos4 = new Alunos(); 
-		
-		
-		alunos1.matricula = 1;
-		alunos2.matricula = 2;
-		alunos3.matricula = 3;
-		alunos4.matricula = 4;
-		
-		alunos1.nome ="PEDRO";
-		alunos2.nome ="DANIEl";
-		alunos3.nome ="MARCOS";
-		alunos4.nome ="JOÃO";
-		
-		double [] notalunos = new double[]{9,2.3,5,6,5.7,};
-		
-		alunos1.notalunos = notalunos[0];
-		alunos2.notalunos = notalunos[1];
-		alunos3.notalunos = notalunos[2];
-		alunos4.notalunos = notalunos[3];
-	
-	
-		if (matricula == 1) {
-			System.out.println("A nota do aluno " + alunos1.nome + " é " + alunos1.notalunos);
-		} else if (matricula == 2) {
-			System.out.println("A nota do aluno " + alunos2.nome + " é " + alunos2.notalunos);
-		} else if (matricula == 3) {
-			System.out.println("A nota do aluno " + alunos3.nome + " é " + alunos3.notalunos);
-		} else if (matricula == 4) {
-			System.out.println("A nota do aluno " + alunos4.nome + " é " + alunos4.notalunos);
-		} else {
-			System.out.println("Aluno não encontrado");
-		}
 	}
 }

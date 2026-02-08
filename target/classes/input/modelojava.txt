@@ -1,0 +1,16 @@
+[classes objeto principal]
+campos, id_cliente, nome_pais, nome_pais, telefone_pais, email_pais, imagem_pais, valor_hora_avulsa, valor_pacote5, valor_pacote10, pacote_principal, modo_pagamento, data_preferida_pagamento, data_aceite_pedido, data_primeiro_contato, data_primeira_aula, observacoes_primeira_aula, nome_aluno, idade_aluno, serie_ano, turno_aluno, telefone_aluno, email_aluno, imagem_aluno, disciplina, data_primeira_prova, conteudo_primeira_prova, nota_primeira_prova
+
+[classes abstratas]
+
+[classes interfaces]
+
+[classes dao queries]
+
+[classes main executor]
+
+[classes app style]
+
+[classes folder suafolder]
+
+[classes Object App.js]
