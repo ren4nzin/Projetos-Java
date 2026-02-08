@@ -1,18 +1,17 @@
 package br.com.educacao;
 
 class Alunos {
-	int matricula;
+	int matricula;   
 	String nome;
 	double notalunos;
 
 	public Alunos() {
-
 	}
 
 	public Alunos(int matricula) {
 		this.matricula = matricula;
 	}
-
+    
 	public Alunos(String nome) {
 		this.nome = nome;
 	}
