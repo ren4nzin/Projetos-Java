@@ -1,7 +1,7 @@
 package br.com.educacao;
 
 class Alunos {
-	int matricula;   
+	int matricula;
 	String nome;
 	double notalunos;
 
@@ -11,7 +11,7 @@ class Alunos {
 	public Alunos(int matricula) {
 		this.matricula = matricula;
 	}
-    
+
 	public Alunos(String nome) {
 		this.nome = nome;
 	}
@@ -42,9 +42,11 @@ class Alunos {
 	}
 
 	public void imprimir() {
+		System.out.println("===============================");
 		System.out.println("Minha matricula é: " + this.matricula);
 		System.out.println("Meu nome é: " + this.nome);
 		System.out.println("Minha nota é: " + this.notalunos);
+		System.out.println("===============================");
 	}
 
 	public void aumentarnota(double notalunos) {
@@ -73,6 +75,6 @@ class Alunos {
 	// criar e usar a funcao ajustar nota *implementado e testado*
 
 	// criar e usar a funcao alterar matricula *implementado e testado*
-	// criar e usar a funcao corrigir nome   *implementado e testado*
-	// O PAI É O REI DO JAVA
+	// criar e usar a funcao corrigir nome *implementado e testado*
+	// ggeasy
 }
