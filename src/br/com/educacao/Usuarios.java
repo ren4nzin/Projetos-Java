@@ -13,12 +13,11 @@ public class Usuarios {
 		aluno3 = new Alunos(3, "MARCOS", 2);
 		aluno4 = new Alunos(4, "JOÃO", 3);
 
-		professor1 = new Professores("108-A", "BRENO", 10.20);
-		professor2 = new Professores();
-		professor3 = new Professores();
-		professor4 = new Professores();
+		professor1 = new Professores("108-A", "BRENO", 140.00);
+		professor2 = new Professores("109-A", "LUCAS", 138.00);
+		professor3 = new Professores("110-A", "RODOLFO", 142.00);
+		professor4 = new Professores("101-B", "PLINIO", 142.00);
 
-		// aluno1.aumentarnota(5.1);
 		// aluno1.ajustarnota(5.0);
 		// aluno1.diminuinota(5.1);
 		// aluno1.alterarmatricula(6);
@@ -26,6 +25,5 @@ public class Usuarios {
 
 		aluno1.imprimir();
 		professor1.imprimir();
-
 	}
 }
