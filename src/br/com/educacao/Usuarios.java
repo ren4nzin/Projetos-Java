@@ -22,9 +22,12 @@ public class Usuarios {
 							//adiciona professores no vector professores//
 
 
-		admin.imprimirAlunoMT(2);
-		
-		 //admin.imprimirProfessores();
-       // admin.imprimirCustoTotal();
+		//admin.imprimirAlunoMT(2);
+		//↑↑↑↑↑↑↑↑↑↑↑imprimir aluno usando a matricula ↑↑↑↑↑↑↑↑↑↑↑
+			admin.imprimirProfessorNm("LUCAS");
+		 //admin.imprimirProfessores(); 
+		//↑↑↑↑↑↑↑↑↑↑↑imprime todos os professores↑↑↑↑↑↑↑↑↑↑↑
 	}
-}
+       // admin.imprimirCustoTotal();
+	   //↑↑↑↑↑↑↑↑↑↑↑imprime o custo total do salario de todos os professores↑↑↑↑↑↑↑↑↑↑↑
+	}
