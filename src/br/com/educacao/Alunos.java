@@ -65,7 +65,7 @@ class Alunos {
 		this.matricula = matricula;
 	}
 
-	public void corrigirnome(string nome) {
+	public void corrigirnome(String nome) {
 		this.nome = nome;
 	}
 
