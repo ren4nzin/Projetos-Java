@@ -1,0 +1,9 @@
+Login.class
+br\com\calculadora\Calculadora.class
+br\com\educacao\ConexaoSQLite.class
+br\com\educacao\AlunoDAO.class
+br\com\educacao\Professores.class
+br\com\educacao\Admin.class
+br\com\educacao\ProfessorDAO.class
+br\com\educacao\Usuarios.class
+br\com\educacao\Alunos.class

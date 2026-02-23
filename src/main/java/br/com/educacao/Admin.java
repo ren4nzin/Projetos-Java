@@ -3,30 +3,32 @@ package br.com.educacao;
 import java.util.Vector;
 
 class Admin {
-    // vector da classe alunos  e funçoes 
+    // vector da classe alunos e funçoes
     Vector<Alunos> alunos = new Vector<>();
 
     public void adicionarAlunos(Alunos a) {
         alunos.add(a);
     }
-// função que adiciona alunos ↑↑↑↑↑↑↑↑↑↑↑
+
+    // função que adiciona alunos ↑↑↑↑↑↑↑↑↑↑↑
     public void imprimirAlunos() {
         for (Alunos a : alunos) {
             a.imprimir();
         }
     }
-// função que imprime todos os alunos ↑↑↑↑↑↑↑↑↑↑↑
+
+    // função que imprime todos os alunos ↑↑↑↑↑↑↑↑↑↑↑
     public void imprimirAlunoMT(int matricula) {
         for (Alunos a : alunos) {
             if (a.matricula == matricula) {
                 a.imprimir();
                 return;
-            }// função que imprime UM aluno pela matrícula ↑↑↑↑↑↑↑↑↑↑↑
+            } // função que imprime UM aluno pela matrícula ↑↑↑↑↑↑↑↑↑↑↑
         }
         System.out.println("Aluno não encontrado");
     }
 
-    // vector da classe professores  e funçoes
+    // vector da classe professores e funçoes
     Vector<Professores> professores = new Vector<>();
     double custoTotalSalarios = 0;
 
@@ -35,17 +37,15 @@ class Admin {
         custoTotalSalarios += p.getSalario();
     }
 
-
-public void imprimirProfessorNm(String nome) {
+    public void imprimirProfessorNm(String nome) {
         for (Professores p : professores) {
             if (p.nome == nome) {
                 p.imprimir();
                 return;
-            }// função que imprime UM Professor pelo nome
+            } // função que imprime UM Professor pelo nome          
         }
         System.out.println("Professor não encontrado");
     }
-
 
     public void imprimirProfessores() {
         for (Professores p : professores) {

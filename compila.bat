@@ -1,2 +1,1 @@
-mvn package
-PAUSE
+mvn clean compile

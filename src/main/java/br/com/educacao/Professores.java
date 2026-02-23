@@ -1,8 +1,7 @@
 package br.com.educacao;
 
-
 class Professores {
-
+    int id;
     String salas;
     String nome;
     double horasTrabalhadas;
@@ -16,14 +15,15 @@ class Professores {
         this.nome = nome;
     }
 
-    public Professores(String salas, String nome, double horasTrabalhadas) {
+    public Professores(int id,String salas, String nome, double horasTrabalhadas) {
+        this.id = id;
         this.salas = salas;
         this.nome = nome;
         this.horasTrabalhadas = horasTrabalhadas;
     }
 
     public double getSalario() {
-    return HoraAula * horasTrabalhadas;
+        return HoraAula * horasTrabalhadas;
 
     }
 
